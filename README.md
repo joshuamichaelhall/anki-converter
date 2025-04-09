@@ -79,7 +79,7 @@ This creates cards with:
 ```markdown
 This code implements a binary search algorithm:
 
-```ruby
+
 def binary_search(array, target)
   low = 0
   high = array.length - 1
@@ -97,7 +97,6 @@ def binary_search(array, target)
   
   return nil
 end
-```
 ```
 
 This creates cards with:
