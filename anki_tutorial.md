@@ -50,6 +50,23 @@ To import cards from a text file:
    - Map the columns to Anki fields (e.g., first column → Front, second column → Back)
 4. Click **Import**
 
+### Best Practices for Separators
+
+When preparing files for import into Anki, choosing the right separator is crucial:
+
+- **Recommended: Pipe separator (|)** - The pipe character is the safest choice because it rarely appears in regular content. This prevents issues when your flashcard content includes commas, which are common in sentences, lists, and definitions.
+  
+  Example: `What is the capital of France?|Paris, the city of lights`
+
+- **Tab separator** - Also a good choice, but can be problematic if your text editor converts tabs to spaces
+
+- **Comma separator** - While commonly used in CSV files, commas frequently appear in flashcard content, causing import errors. Only use if you're certain your content contains no commas.
+
+**Important**: If your content includes the chosen separator character, you'll need to either:
+- Wrap the field in quotes (for CSV format)
+- Choose a different separator
+- Replace the separator character in your content with an alternative
+
 ### 6. Studying
 
 1. From the main screen, click on your deck
